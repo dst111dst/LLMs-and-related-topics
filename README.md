@@ -1,9 +1,7 @@
-# LLMs-and-related-topics
-Store recent topics about LLMs
+# I.LLMs-and-related-topics
+Store recent topics about LLMs in the first part.
 
 ## LLM and related topics
-
-
 
 ## 1.Use and Adapt LLMs
 
@@ -105,3 +103,41 @@ Store recent topics about LLMs
 1. [A General Language Assistant as a Laboratory for Alignment](https://arxiv.org/pdf/2112.00861.pdf)
 2. [Alignment of Language Agents](https://arxiv.org/pdf/2103.14659.pdf)
 3. [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](https://arxiv.org/pdf/2204.05862.pdf)
+
+
+# II.From LLM to VisualLM
+
+Related topics: tuning language model for multimodal tasks, use the augmentation methods in LLMs to improve VLMs, use the prompts or ICL to improve VLMs, analyzing the similar abilities in VLMs (e.g. zero-shot/ few-shot learning ability )
+
+## Blogs and surveys of VLMs
+
+ [A Dive into Vision-Language Models](https://huggingface.co/blog/vision_language_pretraining) HuggingFace, 2023
+
+- Since 2021, we’ve seen an increased interest in models that combine vision and language modalities (also called **joint vision-language models**), such as [OpenAI’s CLIP](https://openai.com/blog/clip/). Joint vision-language models have shown particularly impressive capabilities in very challenging tasks such as **image captioning, text-guided image generation and manipulation, and visual question-answering**. This field continues to evolve, and so does its effectiveness in improving z**ero-shot generalization** leading to various practical use cases.
+
+- In this blog post, we'll introduce **joint vision-language models** focusing on how they're trained. We'll also show how you can leverage..
+
+- A vision-language model typically consists of 3 key elements: an image encoder, a text encoder, and a strategy to fuse information from the two encoders. These key elements are tightly coupled together as the loss functions are designed around both the model architecture and the learning strategy. While vision-language model research is hardly a new research area, the design of such models has changed tremendously over the years. Whereas earlier research adopted hand-crafted image descriptors and pre-trained word vectors or the frequency-based TF-IDF features, the latest research predominantly adopts i**mage and text encoders with transformer architectures** to **separately or jointly learn image and text features**. These models are pre-trained with strategic pre-training objectives that enable various downstream tasks.
+
+## Multimodal Pre-train Language Model
+
+1. [Flamingo: A Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) NeurIPS, 2022 (visual + lm)
+
+2. [Language Quantized AutoEncoders: Towards Unsupervised Text-Image Alignment](https://arxiv.org/abs/2302.00902) 2023
+
+...
+
+## Retrieval Augmentation in Visual LMs
+
+1. [Retrieval-Augmented Multimodal Language Modeling](https://arxiv.org/pdf/2211.12561.pdf) ACL, 2022
+2. [Re-Imagen: Retrieval-Augmented Text-to-Image Generator](https://arxiv.org/pdf/2209.14491.pdf) 2022
+3. [SMALLCAP: Lightweight Image Captioning Prompted with Retrieval Augmentation](https://arxiv.org/abs/2209.15323) 2022
+4. [Efficient Image-Text Retrieval via Keyword-Guided Pre-Screening](https://arxiv.org/pdf/2303.07740.pdf) 2023
+5. [Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning](https://arxiv.org/pdf/2302.04858.pdf) 2023
+
+## Visual Augmentation in Visual LMs
+1. [Visually-Augmented Language Modeling](https://openreview.net/pdf?id=8IN-qLkl215) ICLR, 2023
+
+## SLM Augmentation in Visual LMs
+1. [Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering](https://arxiv.org/pdf/2303.01903.pdf) 2023
+
