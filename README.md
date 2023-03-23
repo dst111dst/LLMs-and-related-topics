@@ -40,8 +40,8 @@ Store recent topics about LLMs
 
 1. [Language Models as Knowledge Bases?](https://arxiv.org/pdf/1909.01066.pdf)
 2. [How Much Knowledge Can You Pack Into the Parameters of a Language Model?](https://arxiv.org/pdf/2002.08910.pdf)
-
-
+3. [Knowledge Injection into Encoder-Decoder Language Models](https://arxiv.org/pdf/2302.09170.pdf) 2023
+4. [Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering](https://arxiv.org/pdf/2303.01903) 2023
 
 ##  2.Data, Model Scaling and Risks
 
@@ -67,8 +67,8 @@ Store recent topics about LLMs
 1. [Self-Diagnosis and Self-Debiasing: A Proposal for Reducing Corpus-Based Bias in NLP](https://arxiv.org/pdf/2103.00453.pdf)
 
 
-
 ## 3.Beyond Current LLMs: Models and Applications
+
 
 ### Sparse models
 
@@ -77,6 +77,12 @@ Store recent topics about LLMs
 ### Retrieval-based LMs
 
 1. [Improving language models by retrieving from trillions of tokens](https://arxiv.org/pdf/2112.04426.pdf)
+2. [Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model](https://arxiv.org/pdf/2212.09146.pdf) 2022 
+3. [Retrieval Enhanced Model for Commonsense Generation](https://arxiv.org/pdf/2105.11174) ACL, 2021
+4. [Recent Advances in Retrieval-Augmented Text Generation](https://lemaoliu.github.io/retrieval-generation-tutorial/)
+   90-Minute Tutorial @ IJCAI Conference 2022.
+5. [Building Scalable, Explainable, and Adaptive NLP Models with Retrieval](https://ai.stanford.edu/blog/retrieval-based-NLP/) 2021
+
 
 ### Training LMs with human feedback
 
@@ -89,6 +95,10 @@ Store recent topics about LLMs
 ### Multimodal LMs
 
 1. [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/pdf/2204.14198.pdf)
+2. [Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering](https://arxiv.org/pdf/2303.01903)  2023
+3. [Language Models with Image Descriptors are Strong Few-Shot Video-Language Learners](https://arxiv.org/abs/2205.10747) NeurIPS, 2022
+4. [From Visual Prompt Learning to Zero-Shot Transfer: Mapping Is All You Need](https://arxiv.org/pdf/2303.05266) 2023
+
 
 ### AI Alignment
 
